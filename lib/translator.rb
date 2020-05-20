@@ -14,8 +14,9 @@ def load_library(path)
   output
 end
 
-def get_japanese_emoticon
-  # code goes here
+def get_japanese_emoticon(path, japanese_emoticon)
+  emojidex = load_library(path)
+  emojidex.each = |
 end
 
 def get_english_meaning
