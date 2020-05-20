@@ -7,7 +7,7 @@ def load_library(path)
   output = {}
   file.each do |name, emoticon_list|
     output[name] = {
-      english: emoticon_list[0]
+      english: emoticon_list[0],
       japanese: emoticon_list[1]
     }
   end
