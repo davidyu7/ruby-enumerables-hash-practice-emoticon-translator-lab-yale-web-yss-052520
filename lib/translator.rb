@@ -16,7 +16,8 @@ end
 
 def get_japanese_emoticon(path, japanese_emoticon)
   emojidex = load_library(path)
-  emojidex.key() = |
+  emojidex.each do |meaning, emoticon_list|
+    return meaning.to_s if emoticon_list[japanese]
 end
 
 def get_english_meaning
