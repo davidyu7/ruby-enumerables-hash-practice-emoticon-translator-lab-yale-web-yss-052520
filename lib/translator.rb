@@ -17,7 +17,7 @@ end
 def get_japanese_emoticon(path, western_emoticon)
   emojidex = load_library(path)
   emojidex.each do |meaning, emoticon_list|
-    return emoticon_list[:japanese] if emoticon_list[:english] == japanese_emoticon
+    return emoticon_list[:japanese] if emoticon_list[:english] == western_emoticon
   end
   return "Sorry, that emoticon was not found"
 end
