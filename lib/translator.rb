@@ -16,7 +16,7 @@ end
 
 def get_japanese_emoticon(path, japanese_emoticon)
   emojidex = load_library(path)
-  emojidex. = |
+  emojidex.key() = |
 end
 
 def get_english_meaning
