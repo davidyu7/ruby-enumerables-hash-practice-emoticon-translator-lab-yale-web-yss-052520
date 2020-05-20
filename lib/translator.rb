@@ -22,4 +22,5 @@ def get_english_meaning(path, japanese_emoticon)
   emojidex.each do |meaning, emoticon_list|
     return meaning.to_s if emoticon_list[:japanese] == japanese_emoticon
   end
+  return "Sorry, that emoticon was not found"
 end
